@@ -1,0 +1,59 @@
+query LoadFilms {
+  allFilms {
+    totalCount
+    films {
+      id
+      title
+    }
+  }
+}
+
+query LoadSpecies {
+  allSpecies {
+    totalCount
+    species {
+      id
+      name
+    }
+  }
+}
+
+query LoadStarships {
+  allStarships {
+    totalCount
+    starships {
+      id
+      name
+    }
+  }
+}
+
+query LoadPeople {
+  allPeople {
+    totalCount
+    people {
+      id
+      name
+    }
+  }
+}
+
+query LoadPlanets {
+  allPlanets {
+    totalCount
+    planets {
+      id
+      name
+    }
+  }
+}
+
+query LoadVehicles {
+  allVehicles {
+    totalCount
+    vehicles {
+      id
+      name
+    }
+  }
+}
